@@ -1,0 +1,60 @@
+* {
+  font-family: 'Noto Sans Mono', monospace;
+  /* font-family: 'Noto Sans', sans-serif; */
+}
+
+
+.main {
+  background-color: rgb(248, 241, 255);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 38rem;
+}
+
+.card {
+  margin-top: 7rem;
+  padding: 3rem;
+  width: 12rem;
+  height: 13rem;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 13rem;
+  font-size: 12px;
+}
+
+.paragrafo {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.botao {
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+  color: white;
+  border-radius: 24px;
+  border: 1px;
+  background: linear-gradient(rgb(110, 51, 235), rgb(85, 51, 235));
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 6px;
+  padding: 7px 21px;
+  transition-duration: 0.2s;
+}
+.botao:hover {
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 1px 6px;
+}
+.botao:active {
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  color: rgba(255, 255, 255, 0.6);
+}

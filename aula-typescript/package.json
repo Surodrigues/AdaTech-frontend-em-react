@@ -1,0 +1,14 @@
+{
+  "name": "aula-typescript",
+  "version": "1.0.0",
+  "description": "1. inicializar um projeto node.js: `npm init`; 2. instalar o typescript:   2.1 global (não recomendado);   2.2 local: `npm install typescript -D`;     -D : pacotes de lib para desenvolvimento, não vão para a produção; 3. transpilar cód TS para JS: `npx tsc index.ts`;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
